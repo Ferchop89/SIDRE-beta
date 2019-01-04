@@ -1,0 +1,66 @@
+@import "grid.css";
+
+@import url(//fonts.googleapis.com/css?family=BenchNine);
+@import url(//fonts.googleapis.com/css?family=Pathway+Gothic+One);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:300);
+
+/****Links****/
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+    transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+}
+
+a:hover {
+    color: #ccc;
+}
+
+.btn {
+    font: 30px/30px 'Pathway Gothic One', sans-serif;
+    display: inline-block;
+    border: 1px solid #828282;
+    color: #3a3838;
+    padding: 3px 48px 12px;
+    margin-top: 23px;
+}
+
+.btn:hover {
+    background-color: #828282;
+    color: #fff;
+}
+
+.page1 .btn {
+    margin-top: 41px;
+}
+
+/**Footer**/
+
+.socials {
+    float: right;
+    color: #2a2828;
+    overflow: hidden;
+}
+
+.socials .fa {
+    font-size: 36px;
+    float: left;
+    line-height: 38px;
+}
+
+.socials .fa.fa-twitter {
+    font-size: 38px;
+}
+
+.socials .fa.fa-youtube-play {
+    margin-left: 23px !important;
+}
+
+.socials .fa +.fa {
+    margin-left: 19px;
+}

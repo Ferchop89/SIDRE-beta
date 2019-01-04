@@ -1,0 +1,493 @@
+body{
+  min-width: 290px;
+}
+main#maincontent {
+  width: 100%;
+  margin:0;
+  padding: 0;
+  min-height: 435px;
+}
+main .container-login{
+
+  width: 100%;
+  /* height: 435px; */
+  background-image: url("../images/entrada1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% -210%;
+  background-color: #909090;
+}
+.contenedor-login{
+
+  /* width: 100%;
+  height: 435px; */
+  /* background-image: url("../images/entrada1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% -210%; */
+  /* display: table; */
+  background-color: #909090;
+}
+.panel.panel-default-login{
+    background: rgba(0,0,0,0.6) none repeat scroll 0 0;
+    border-radius: 5px;
+    margin: 60px auto;
+    /* padding: 30px; */
+    width: 60%;
+}
+.login-form .input-group-addon{
+  margin: 0;
+  padding: 0;
+}
+.login-form label{
+  color:white;
+  font-weight: lighter;
+}
+.login-form .icon-uno{
+  width: 34px;
+  height: 32px;
+  background-image: url("../images/login.png");
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+}
+.login-form .icon-dos{
+  width: 34px;
+  height: 32px;
+  background-image: url("../images/pass.png");
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+}
+.login-form .form-group label {
+  color: #5f9ea0;
+  font-weight: bold;
+  text-shadow: 2px 2px 0px #000;
+}
+div#btn-submit {
+  width: 35%;
+  display: inline-block;
+}
+.btn-blue{
+  background-color: #1891d5;
+  border: 0;
+  box-shadow: none;
+  color: #fff;
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 15px;
+  height: 34px;
+  min-width: 90px;
+  /* margin: 2px; */
+  overflow: hidden;
+  padding: 0 12px;
+  border-radius: 28px;
+}
+.btn-link{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-shadow: none;
+  display: inline-block;
+  float: right;
+  font-weight: bold;
+  text-shadow: 1px 1px 0px #000;
+}
+.btn-link:hover{
+  text-decoration: none;
+}
+
+.name_user h2, .name_user h3 {
+  text-align: center;
+}
+/*Steps*/
+.container-steps .row {
+    margin: 0;
+    display: block;
+    text-align: center;
+}
+/*Password generation*/
+.title h3 {
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 12px;
+}
+.formulario {
+    width: 60%;
+    margin: auto;
+}
+.formulario label {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+    padding: 0;
+}
+p.obligatorio {
+    display: inline-block;
+    color: red;
+    padding: 0;
+    margin: 0;
+}
+.formulario .input-group {
+    display: inline-block;
+    vertical-align: middle;
+}
+div#pass1 {
+    margin-left: 28px;
+    width: 150px;
+}
+div#pass2 {
+    margin-left: 10px;
+    width: 150px;
+}
+/*Turno*/
+.turno {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.turno h2 {
+   color: red;
+   padding: 0;
+   margin: 0;
+}
+/*Actualización de datos*/
+.sixteen.columns.top-1.bottom-3.bordeado {
+    width: 80%;
+    margin: auto;
+}
+/* form div input, form div label {
+    display: flex;
+} */
+/* form div input {
+    float:right;
+} */
+/* form#formulario_uno, .sixteen p {
+    width: 80%;
+    margin: auto;
+} */
+/* .sixteen.columns.top-1.bottom-3.bordeado {
+    padding-bottom: 50px;
+} */
+#accordion h3 {
+  border:solid 1px;
+  border-radius: 8px;
+  background-color: #C5911F;
+  margin: 0;
+  padding: 10px;
+  font-size: 1em;
+}
+.info{
+      /* padding: 14px 35px 14px 35px; */
+      padding: 4% 4% 4% 4%;
+}
+.caja {
+    border: solid 1px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background-color: #EEECE8;
+}
+
+/**/
+label.active {
+  min-width: 172px;
+}
+
+form select, form input, .grupos select, .grado select{
+  padding: 2px 6px 2px 6px;
+  font-size: 16px;
+  font-weight: 100;
+  color: #757575;
+  border: solid 1px;
+}
+form textarea {
+    width: 100%;
+}
+
+#formulario_uno input, #formulario_uno select {
+    width: 40%;
+}
+#formulario_uno label {
+    width: 30%;
+}
+select {
+   height: 29px;
+}
+input[type="submit"] {
+    width: auto !important;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+/*Adeudo*/
+.adeudo{
+    padding-bottom: 40px;
+}
+.adeudo table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    max-width: 70%;
+    margin: auto;
+}
+.encabezado{
+  background-color: #1C3D6C;
+  color: white;
+  height: 50px;
+}
+.encabezado th{
+  text-align: center;
+}
+tr, th, td {
+    border: solid black 2px;
+}
+.adeudo td,.adeudo th{
+    border: 1px solid #dddddd
+    text-align: left;
+    padding: 8px;
+}
+.adeudo tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.msj-adeudo {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+.btn-a {
+    text-align: center;
+}
+td.area, td.fecha-incidente {
+    text-align: center;
+}
+
+/*Reisncripcion*/
+a.btn-blue {
+    /* padding: 8px 14px; */
+    text-decoration: none;
+}
+.turno p {
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+.consulta {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+/* .grado label, .grupos label {
+    width: 70px;
+}
+.grado {
+    margin-top: 14px;
+} */
+/*Recuperación de contraseña*/
+.form-group label {
+    width: 180px;
+}
+/* Grado */
+.grado {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width:auto;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.row-grado{
+  width: auto;
+}
+
+.flex-item {
+   width: auto !important;
+   height: 40px;
+   margin: 8px;
+   line-height: 40px;
+   font-weight: bold;
+}
+.panel.panel-default {
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+th, td {
+    text-align: center;
+    vertical-align: middle !important;
+    padding: 0px !important;
+}
+.help-block{
+   color: black;
+}
+.help-block h3{
+   color: black;
+}
+.help-block strong {
+    color: red;
+}
+.ui-icon {
+    width: 16px;
+    height: 16px;
+}
+.ui-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -.25em;
+    position: relative;
+    text-indent: -99999px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+.ui-state-active .ui-icon, .ui-button:active .ui-icon {
+    background-image: url(../images/icon/ui-icons_ffffff_256x240.png);
+}
+.ui-icon-triangle-1-s {
+    background-position: -128px -192px;
+    margin-right: 10px;
+}
+.ui-icon, .ui-widget-content .ui-icon {
+    background-image: url(../images/icon/ui-icons_444444_256x240.png);
+    margin-right: 10px;
+}
+.ui-icon-circle-arrow-e, .ui-icon-triangle-1-e {
+    background-position: -112px -192px;
+}
+/*Aviso-privacidad*/
+.aviso.btn-a {
+    display: table;
+    margin: auto;
+}
+.btn-izq, .btn-der {
+    display: table-cell;
+    padding: 0px 60px 0px 60px;
+}
+
+td .base {
+    background-color: lightgrey;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    font-size: 0.7em;
+}
+td .A {
+    background-color: plum;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    font-size: 0.7em;
+}
+td .B {
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    font-size: 0.7em;
+}
+.ambas div {
+    width: 50%;
+    font-size: 12px;
+}
+.ambas div:last-child {
+    /* float: right; */
+    width: 50%;
+    margin-left: 50%;
+    /* margin: auto; */
+}
+.ambas div:first-child {
+  border-right: solid 2px;
+}
+.tres div {
+    width: 33.33%;
+    font-size: 10px;
+    margin-left: 33.33%;
+    border-right: solid 2px;
+}
+.tres div:last-child {
+   width: 33.33%;
+   margin-left: 66.66%;
+   border-right: none;
+}
+.tres div:first-child {
+   /* border-right: solid 2px; */
+   margin-left: 0%;
+}
+td {
+    width: 196px;
+    height: 100px;
+    vertical-align: middle !important;
+    position: relative;
+}
+td.num_cta {
+    width: 140px;
+    height: 100px;
+    position: relative;
+}
+td.comentario {
+    width: 660px;
+    height: 100px;
+    position: relative;
+}
+td.activo {
+    width: 50px;
+    height: 100px;
+    position: relative;
+}
+.comentario input[type="text"] {
+    width: 88%;
+}
+
+.msj p {
+    display: inline-block;
+    padding-left: 10px;
+}
+@media (min-width: 992px)
+{
+   .container.table-grupo{
+      width: 990px;
+   }
+}
+.colores {
+   padding: 6px 30px;
+   width: 20%;
+   position: relative;
+   left: 79%;
+   top: -74px;
+   height: 0;
+}
+.cube_base {
+    width: 12px;
+    height: 12px;
+    background: lightgrey;
+    display: inline-block;
+    margin-right: 10px;
+}
+.seccion {
+   display: inline-block;
+   width: 75%;
+}
+.cube_A{
+   width: 12px;
+   height: 12px;
+   background: plum;
+   display: inline-block;
+   margin-right: 10px;
+}
+.cube_B{
+   width: 12px;
+   height: 12px;
+   background: aqua;
+   display: inline-block;
+   margin-right: 10px;
+}
+.container-steps .alert.alert-info {
+    font-size: 1.5em;
+}

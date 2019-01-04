@@ -1,0 +1,75 @@
+div#btn-submit {
+  width: 35%;
+  display: inline-block;
+}
+.btn-blue{
+  background-color: #1891d5;
+  border: 0;
+  box-shadow: none;
+  color: #fff;
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 15px;
+  height: 34px;
+  min-width: 90px;
+  /* margin: 2px; */
+  overflow: hidden;
+  padding: 0 12px;
+  border-radius: 28px;
+}
+.btn-link{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-shadow: none;
+  display: inline-block;
+  float: right;
+  font-weight: bold;
+  text-shadow: 1px 1px 0px #000;
+}
+.btn-link:hover{
+  text-decoration: none;
+}
+.btn-a {
+    text-align: center;
+}
+a.btn-blue {
+    /* padding: 8px 14px; */
+    text-decoration: none;
+}
+.btn-izq, .btn-der {
+    display: table-cell;
+    padding: 0px 60px 0px 60px;
+}
+.flex-item {
+   width: auto !important;
+   height: 40px;
+   margin: 8px;
+   line-height: 40px;
+   font-weight: bold;
+}
+
+.grado {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width:auto;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.row-grado{
+  width: auto;
+  padding-right: 4%;
+   padding-left: 4%;
+}
+.optativas {
+    padding-left: 125px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

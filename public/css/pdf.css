@@ -1,0 +1,369 @@
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  color: #5D6975;
+  text-decoration: underline;
+}
+
+body {
+  position: relative;
+  width: 16cm;
+  height: 29.7cm;
+  margin: 0 auto;
+  color: #001028;
+  background: #FFFFFF;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  font-family: Arial;
+}
+
+header {
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+
+#logo {
+  text-align: center;
+}
+
+#logo img {
+  width: 90px;
+
+}
+
+h1 {
+  border-top: 1px solid  #5D6975;
+  border-bottom: 1px solid  #5D6975;
+  color: #5D6975;
+  font-size: 2.4em;
+  line-height: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  margin: 0 0 20px 0;
+  background: url(dimension.png);
+}
+
+#project {
+  float: left;
+}
+
+#project span {
+  color: #5D6975;
+  text-align: right;
+  width: 52px;
+  margin-right: 10px;
+  display: inline-block;
+  font-size: 0.8em;
+}
+
+#company {
+  float: right;
+  text-align: right;
+}
+
+#project div,
+#company div {
+  white-space: nowrap;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 20px;
+}
+
+table tr:nth-child(2n-1) td {
+  background: #F5F5F5;
+}
+
+table th,
+table td {
+  text-align: center;
+}
+
+table th {
+  padding: 5px 20px;
+  color: #5D6975;
+  border-bottom: 1px solid #C1CED9;
+  white-space: nowrap;
+  font-weight: normal;
+}
+
+table .service,
+table .desc {
+  text-align: left;
+}
+
+table td {
+  padding: 20px;
+  text-align: right;
+}
+
+table td.service,
+table td.desc {
+  vertical-align: top;
+}
+
+table td.unit,
+table td.qty,
+table td.total {
+  font-size: 1.2em;
+}
+
+table td.grand {
+  border-top: 1px solid #5D6975;;
+}
+
+#notices .notice {
+  color: #5D6975;
+  font-size: 1.2em;
+}
+
+footer {
+  color: #5D6975;
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  border-top: 1px solid #C1CED9;
+  padding: 8px 0;
+  text-align: center;
+}
+/* html {
+    margin: 0;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  color: #5D6975;
+  text-decoration: underline;
+}
+
+body {
+  position: relative;
+  width: 21.6cm !important;
+  height: 27.94cm;
+  margin: 0 auto;
+  color: #001028;
+  background: #FFFFFF;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+header {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+#logo {
+  text-align: center;
+}
+.logo {
+    width: 20%;
+    margin-left: 40px !important;
+    padding-left: 40px !important;
+}
+img {
+    width: 90px;
+}
+
+h1 {
+   font-size: 1.6em;
+   line-height: 1.4em;
+   font-weight: bold;
+   text-align: center;
+   margin: 0 0 20px 0;
+}
+h2{
+    font-size: 1.4em;
+    line-height: 1.4em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+#project {
+  float: left;
+}
+
+#project span {
+  color: #5D6975;
+  text-align: right;
+  width: 52px;
+  margin-right: 10px;
+  display: inline-block;
+  font-size: 0.8em;
+}
+
+#company {
+  float: right;
+  text-align: right;
+}
+
+#project div,
+#company div {
+  white-space: nowrap;
+} */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 20px;
+}
+
+table tr:nth-child(2n-1) td {
+  background: #F5F5F5;
+}
+
+table th,
+table td {
+  text-align: center;
+}
+
+table th {
+  padding: 5px 20px;
+  color: #5D6975;
+  border-bottom: 1px solid #C1CED9;
+  white-space: nowrap;
+  font-weight: normal;
+}
+
+table .service,
+table .desc {
+  text-align: left;
+}
+
+table td {
+  padding: 0px;
+  text-align: left;
+}
+
+table td.service,
+table td.desc {
+  vertical-align: top;
+}
+
+table td.unit,
+table td.qty,
+table td.total {
+  font-size: 1.2em;
+}
+
+table td.grand {
+  border-top: 1px solid #5D6975;;
+}
+
+/* #notices .notice {
+  color: #5D6975;
+  font-size: 1.2em;
+}
+
+footer {
+  color: #5D6975;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}
+.table-header td {
+    background-color: white !important;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+header {
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+    height: 155px;
+   text-align: center;
+   display: block;
+}
+main{
+    clear: both;
+    position: absolute;
+    margin-top: 20px;
+    width: 100%;
+}
+.lista{
+    width: 95%;
+    margin: auto;
+}
+footer {
+   display: block;
+   height: 50px;
+   margin-top: 780px;
+   text-align: center;
+   line-height: 35px;
+}
+.num{
+    width: 3% !important;
+}
+.num_cta{
+    width: 8% !important;
+}
+.nombre{
+    width: 37% !important;
+}
+.fac{
+    width: 32% !important;
+}
+.fecha{
+    width: 10% !important;
+}
+table.lista{
+    border: solid 1px black;
+}
+.lista th, .lista td
+{
+    padding: 2px 1px;
+    color:black;
+    border-bottom: 1px solid #C1CED9;
+    white-space: nowrap;
+    font-weight: normal;
+}
+.columna_1, .columna_4{
+    text-align: center;
+}
+.columna_2, .columna_3{
+    text-align: left;
+}
+.test {
+    width: 28.3cm;
+    transform: rotate(-60deg);
+    position: absolute;
+    color: silver;
+    font-size: 6.2em;
+    opacity: 0.6;
+    top: 160px;
+} */
+.grupo{
+    width: 8px !important;
+    text-align: center;
+}
+.clv_asignatura{
+    width: 10px !important;
+}
+.asignatura{
+    width: 170px !important;
+}
+.profesor{
+    width: 200px !important;
+}
+.center{
+   text-align: center;
+}
